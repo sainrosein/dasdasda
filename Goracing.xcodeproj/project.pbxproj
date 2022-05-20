@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC94124628375E3D003AB7C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94124528375E3D003AB7C6 /* AppDelegate.swift */; };
+		AC94124828375E3D003AB7C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94124728375E3D003AB7C6 /* SceneDelegate.swift */; };
+		AC94124A28375E3D003AB7C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94124928375E3D003AB7C6 /* ViewController.swift */; };
+		AC94124D28375E3D003AB7C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94124B28375E3D003AB7C6 /* Main.storyboard */; };
+		AC94124F28375E3E003AB7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC94124E28375E3E003AB7C6 /* Assets.xcassets */; };
+		AC94125228375E3E003AB7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC94125028375E3E003AB7C6 /* LaunchScreen.storyboard */; };
+		AC94125D28375E3F003AB7C6 /* GoracingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94125C28375E3F003AB7C6 /* GoracingTests.swift */; };
+		AC94126728375E3F003AB7C6 /* GoracingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94126628375E3F003AB7C6 /* GoracingUITests.swift */; };
+		AC94126928375E3F003AB7C6 /* GoracingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC94126828375E3F003AB7C6 /* GoracingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC94125928375E3F003AB7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC94123A28375E3C003AB7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC94124128375E3C003AB7C6;
+			remoteInfo = Goracing;
+		};
+		AC94126328375E3F003AB7C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC94123A28375E3C003AB7C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC94124128375E3C003AB7C6;
+			remoteInfo = Goracing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC94124228375E3C003AB7C6 /* Goracing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Goracing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC94124528375E3D003AB7C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC94124728375E3D003AB7C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC94124928375E3D003AB7C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC94124C28375E3D003AB7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC94124E28375E3E003AB7C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC94125128375E3E003AB7C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC94125328375E3E003AB7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC94125828375E3F003AB7C6 /* GoracingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoracingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC94125C28375E3F003AB7C6 /* GoracingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoracingTests.swift; sourceTree = "<group>"; };
+		AC94126228375E3F003AB7C6 /* GoracingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoracingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC94126628375E3F003AB7C6 /* GoracingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoracingUITests.swift; sourceTree = "<group>"; };
+		AC94126828375E3F003AB7C6 /* GoracingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoracingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC94123F28375E3C003AB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94125528375E3F003AB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94125F28375E3F003AB7C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC94123928375E3C003AB7C6 = {
+			isa = PBXGroup;
+			children = (
+				AC94124428375E3C003AB7C6 /* Goracing */,
+				AC94125B28375E3F003AB7C6 /* GoracingTests */,
+				AC94126528375E3F003AB7C6 /* GoracingUITests */,
+				AC94124328375E3C003AB7C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC94124328375E3C003AB7C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC94124228375E3C003AB7C6 /* Goracing.app */,
+				AC94125828375E3F003AB7C6 /* GoracingTests.xctest */,
+				AC94126228375E3F003AB7C6 /* GoracingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC94124428375E3C003AB7C6 /* Goracing */ = {
+			isa = PBXGroup;
+			children = (
+				AC94124528375E3D003AB7C6 /* AppDelegate.swift */,
+				AC94124728375E3D003AB7C6 /* SceneDelegate.swift */,
+				AC94124928375E3D003AB7C6 /* ViewController.swift */,
+				AC94124B28375E3D003AB7C6 /* Main.storyboard */,
+				AC94124E28375E3E003AB7C6 /* Assets.xcassets */,
+				AC94125028375E3E003AB7C6 /* LaunchScreen.storyboard */,
+				AC94125328375E3E003AB7C6 /* Info.plist */,
+			);
+			path = Goracing;
+			sourceTree = "<group>";
+		};
+		AC94125B28375E3F003AB7C6 /* GoracingTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC94125C28375E3F003AB7C6 /* GoracingTests.swift */,
+			);
+			path = GoracingTests;
+			sourceTree = "<group>";
+		};
+		AC94126528375E3F003AB7C6 /* GoracingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC94126628375E3F003AB7C6 /* GoracingUITests.swift */,
+				AC94126828375E3F003AB7C6 /* GoracingUITestsLaunchTests.swift */,
+			);
+			path = GoracingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC94124128375E3C003AB7C6 /* Goracing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC94126C28375E3F003AB7C6 /* Build configuration list for PBXNativeTarget "Goracing" */;
+			buildPhases = (
+				AC94123E28375E3C003AB7C6 /* Sources */,
+				AC94123F28375E3C003AB7C6 /* Frameworks */,
+				AC94124028375E3C003AB7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Goracing;
+			productName = Goracing;
+			productReference = AC94124228375E3C003AB7C6 /* Goracing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC94125728375E3F003AB7C6 /* GoracingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC94126F28375E3F003AB7C6 /* Build configuration list for PBXNativeTarget "GoracingTests" */;
+			buildPhases = (
+				AC94125428375E3F003AB7C6 /* Sources */,
+				AC94125528375E3F003AB7C6 /* Frameworks */,
+				AC94125628375E3F003AB7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC94125A28375E3F003AB7C6 /* PBXTargetDependency */,
+			);
+			name = GoracingTests;
+			productName = GoracingTests;
+			productReference = AC94125828375E3F003AB7C6 /* GoracingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC94126128375E3F003AB7C6 /* GoracingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC94127228375E3F003AB7C6 /* Build configuration list for PBXNativeTarget "GoracingUITests" */;
+			buildPhases = (
+				AC94125E28375E3F003AB7C6 /* Sources */,
+				AC94125F28375E3F003AB7C6 /* Frameworks */,
+				AC94126028375E3F003AB7C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC94126428375E3F003AB7C6 /* PBXTargetDependency */,
+			);
+			name = GoracingUITests;
+			productName = GoracingUITests;
+			productReference = AC94126228375E3F003AB7C6 /* GoracingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC94123A28375E3C003AB7C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AC94124128375E3C003AB7C6 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					AC94125728375E3F003AB7C6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AC94124128375E3C003AB7C6;
+					};
+					AC94126128375E3F003AB7C6 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = AC94124128375E3C003AB7C6;
+					};
+				};
+			};
+			buildConfigurationList = AC94123D28375E3C003AB7C6 /* Build configuration list for PBXProject "Goracing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC94123928375E3C003AB7C6;
+			productRefGroup = AC94124328375E3C003AB7C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC94124128375E3C003AB7C6 /* Goracing */,
+				AC94125728375E3F003AB7C6 /* GoracingTests */,
+				AC94126128375E3F003AB7C6 /* GoracingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC94124028375E3C003AB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC94125228375E3E003AB7C6 /* LaunchScreen.storyboard in Resources */,
+				AC94124F28375E3E003AB7C6 /* Assets.xcassets in Resources */,
+				AC94124D28375E3D003AB7C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94125628375E3F003AB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94126028375E3F003AB7C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC94123E28375E3C003AB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC94124A28375E3D003AB7C6 /* ViewController.swift in Sources */,
+				AC94124628375E3D003AB7C6 /* AppDelegate.swift in Sources */,
+				AC94124828375E3D003AB7C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94125428375E3F003AB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC94125D28375E3F003AB7C6 /* GoracingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC94125E28375E3F003AB7C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC94126928375E3F003AB7C6 /* GoracingUITestsLaunchTests.swift in Sources */,
+				AC94126728375E3F003AB7C6 /* GoracingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC94125A28375E3F003AB7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC94124128375E3C003AB7C6 /* Goracing */;
+			targetProxy = AC94125928375E3F003AB7C6 /* PBXContainerItemProxy */;
+		};
+		AC94126428375E3F003AB7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC94124128375E3C003AB7C6 /* Goracing */;
+			targetProxy = AC94126328375E3F003AB7C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC94124B28375E3D003AB7C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC94124C28375E3D003AB7C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC94125028375E3E003AB7C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC94125128375E3E003AB7C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC94126A28375E3F003AB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC94126B28375E3F003AB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC94126D28375E3F003AB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Goracing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = va.Goracing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC94126E28375E3F003AB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Goracing/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = va.Goracing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC94127028375E3F003AB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = va.GoracingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goracing.app/Goracing";
+			};
+			name = Debug;
+		};
+		AC94127128375E3F003AB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = va.GoracingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Goracing.app/Goracing";
+			};
+			name = Release;
+		};
+		AC94127328375E3F003AB7C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = va.GoracingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Goracing;
+			};
+			name = Debug;
+		};
+		AC94127428375E3F003AB7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = va.GoracingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Goracing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC94123D28375E3C003AB7C6 /* Build configuration list for PBXProject "Goracing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC94126A28375E3F003AB7C6 /* Debug */,
+				AC94126B28375E3F003AB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC94126C28375E3F003AB7C6 /* Build configuration list for PBXNativeTarget "Goracing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC94126D28375E3F003AB7C6 /* Debug */,
+				AC94126E28375E3F003AB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC94126F28375E3F003AB7C6 /* Build configuration list for PBXNativeTarget "GoracingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC94127028375E3F003AB7C6 /* Debug */,
+				AC94127128375E3F003AB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC94127228375E3F003AB7C6 /* Build configuration list for PBXNativeTarget "GoracingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC94127328375E3F003AB7C6 /* Debug */,
+				AC94127428375E3F003AB7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC94123A28375E3C003AB7C6 /* Project object */;
+}
